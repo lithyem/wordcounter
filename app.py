@@ -1,7 +1,8 @@
 from flask import Flask,render_template
-import utils
 
 myapp = Flask(__name__)
+
+import utils
 
 @myapp.route('/')
 def home():
