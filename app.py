@@ -8,5 +8,4 @@ import utils
 def home():
 	return "Welcome to my Flask web app!"
 
-if __name__ == '__main__':
-	myapp.run(debug=True)
+print("starting")
